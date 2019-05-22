@@ -1,0 +1,7 @@
+﻿  영식이와친구들.c
+c:\users\borio\documents\visual studio 2017\projects\consoleapplication25\consoleapplication25\영식이와친구들.c(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\borio\documents\visual studio 2017\projects\consoleapplication25\consoleapplication25\영식이와친구들.c(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  ConsoleApplication25.vcxproj -> c:\users\borio\documents\visual studio 2017\Projects\ConsoleApplication25\Debug\ConsoleApplication25.exe
+  ConsoleApplication25.vcxproj -> c:\users\borio\documents\visual studio 2017\Projects\ConsoleApplication25\Debug\ConsoleApplication25.pdb (Partial PDB)
