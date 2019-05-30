@@ -26,3 +26,118 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2019-05-29 20:18:25.183 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2019-05-29 20:18:51.392
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-29 20:18:51.392
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2674ca88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67a3dd86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:48.406
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:48.411
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@8fe054[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=532)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:48.413
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:48.477
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.450
+!MESSAGE Boot LS startup time from start to initialized: 6025ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.500
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HxBpzEUm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.501
+!MESSAGE subscribing to classpath changes: sts4.classpath.HxBpzEUm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.502
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.504
+!MESSAGE subsribers = [sts4.classpath.HxBpzEUm]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.504
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.543
+!MESSAGE project B ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.544
+!MESSAGE Preparing classpath changed notification B
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.544
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.545
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.546
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HxBpzEUm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.550
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.550
+!MESSAGE executing callback sts4.classpath.HxBpzEUm B false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 20:19:54.608
+!MESSAGE executing callback sts4.classpath.HxBpzEUm SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2019-05-29 21:51:34.513
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-29 21:51:34.513
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e60c7e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20166766,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 23:01:14.995
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HxBpzEUm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 23:01:14.996
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HxBpzEUm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 23:01:14.997
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-05-29 23:01:14.998
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HxBpzEUm => OK
